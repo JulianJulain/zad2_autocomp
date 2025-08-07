@@ -32,7 +32,7 @@ int main() {
     klienci.enqueue("Klient");
 
     int suma_obslugi = 0;
-    int liczba_osob = 0;
+    int liczba_osob = 2;
     size_t dl_kolejki = 0;
 
     random_device rd;
