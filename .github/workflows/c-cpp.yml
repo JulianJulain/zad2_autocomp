@@ -18,7 +18,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y g++
 
     - name: Compile tests
-      run: g++ -std=c++17 -Wall -Wextra tests.cpp -o tests
+      run: g++ -std=c++17 -Wall -Wextra test_queue.cpp -o tests
 
     - name: Run tests
       run: ./tests
